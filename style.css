@@ -1,0 +1,167 @@
+body {
+	background-color: #cccccc;
+	margin: 0px;
+}
+
+#header,.comment {
+	background-color:#ffffff;
+	margin: 8pt 0pt;
+	padding-top: 4pt;
+	padding-bottom: 4pt;
+}
+
+#header {
+	margin-top: 0pt;
+}
+
+#footer {
+	text-align: center;
+}
+
+#content {
+	min-width: 40%;
+	max-width: 100%;
+	width: 800px;
+	margin: 0px auto;
+}
+
+.comment {
+	font-family: 'Arial', sans-serif;
+	font-size:10pt;
+}
+
+@media (min-width: 800px) { 
+	#header,.comment {
+		padding-left: 12pt;
+		padding-right: 12pt;
+	}
+	.comment {
+		font-size:11pt;
+	}
+}
+
+h1, h2, h3 {
+	font-family: 'Droid Serif', serif;
+	text-decoration: none;
+	text-align: center;
+}
+
+h2 {
+	margin: 4pt 0pt;
+}
+
+h1 { 
+	margin-bottom: 0pt; 
+}
+
+h3 { 
+	margin: 0pt;
+	padding: 0pt 8pt;
+	position: relative;
+	bottom: 4pt;
+}
+
+.info {
+	overflow: auto;
+	padding: 3pt 4pt;
+}
+
+.info div {
+	margin: 1pt 4pt;
+	color: #aaaaaa;
+}
+
+.info .title {
+	color: #000000;
+	font-weight: bold;
+	float: left;
+}
+
+.info .note {
+	color: #000000;
+}
+
+.info .postedby {
+	float: left;
+}
+
+.namefont {
+	color: #226600;
+	font-weight: bold;
+}
+
+.info .date {
+	color: #aaaaaa;
+	float: left;
+	font-style: italic;
+}
+
+.info .id {
+	float: right;
+}
+
+.info .views {
+	float: right;
+}
+
+.info .replylink {
+	float: right;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin: 2pt 0pt;
+}
+
+.container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.center {
+	text-align: center;
+}
+
+.floatcontainer {
+	overflow: auto;
+}
+
+form {
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form div {
+	line-height: 18pt;
+}
+
+.formtext {
+
+	float: left;
+	text-align: right;
+	margin: 0pt 8pt;
+}
+
+.forminputs {
+	overflow:hidden;
+	margin-bottom: -3pt;
+}
+
+input[type="text"], textarea {
+	width: 90%;
+	resize: none;
+	margin: 1px;
+	padding: 1px;
+}
+
+textarea {
+	padding: 2px;
+	height: 4em;
+}
