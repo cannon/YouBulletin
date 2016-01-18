@@ -9,8 +9,8 @@ Requires a web server with PHP and MySQL. To install, simply clone into a direct
 
 Homepage, desktop view:
 
-![Homepage](http://i.imgur.com/JeDn1o7.png)
+![Homepage](http://i.imgur.com/5j5vmjm.png)
 
 Comments page, mobile view:
 
-![Comments](http://i.imgur.com/0a7ZxsV.png)
+![Comments](http://i.imgur.com/uyDwjOO.png)
