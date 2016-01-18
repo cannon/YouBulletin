@@ -5,4 +5,4 @@ Videos are uploaded by users, who may choose to be anonymous. The homepage shows
 
 Each video includes a comment section for discussion. Video uploading and commenting has basic spam-protection.
 
-To install, simply clone into a directory and modify config.php and sql.php. Requires PHP and MySQL.
+Requires a web server with PHP and MySQL. To install, simply clone into a directory and modify config.php and sql.php. The SQL database will be setup automatically.
